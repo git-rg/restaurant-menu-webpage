@@ -1,0 +1,58 @@
+/* Style for the dish boxes */
+.dish-box {
+    background-color: #d0f0c0; /* Light green background for each dish box */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Colors for each dish title */
+.chicken-title {
+    color: darkred;
+}
+
+.beef-title {
+    color: darkgreen;
+}
+
+.sushi-title {
+    color: brown;
+}
+
+/* Back to Top link styling */
+.back-to-top {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+/* Extra spacing for the container */
+.container {
+    margin-top: 20px;
+}
+
+/* Toggle button style adjustments for mobile view */
+.navbar-toggle {
+    background-color: #28a745; /* Green background for toggle */
+}
+
+/* Mobile Navbar */
+@media (max-width: 767px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.in {
+        display: block !important;
+    }
+}
